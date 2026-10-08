@@ -1,7 +1,15 @@
+:root{
+    --fundo: #ffffff;
+    --texto: #1a1a1a;
+}
+body.escuro {
+    --fundo:#121212;
+    --texto: #f0f0f0;
+}
 body {
     font-family: Arial, sans-serif;
-    background-color: #111827;
-    color: #f3f4f6;
+    background-color: var(--fundo);
+    color: var(--texto);
     margin: 0;
     padding: 0;
 }
